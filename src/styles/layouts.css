@@ -1,0 +1,155 @@
+.nav{
+    padding: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f3f4f6;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4rem;
+    z-index: 100;
+}
+
+.nav .home-icon{
+    font-size: 1.5rem;
+    color: #2a72d7;
+    margin-right: 0.5rem;
+}
+
+.nav .brand{
+    display: flex;
+    align-items: center;
+}
+
+.nav .brand span{
+   font-family: "Poppins-Bold", sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    padding: 2rem;
+    background-color: #ebebec;
+}
+
+.header .hero{
+    height: 60vh;
+}
+
+.header .info{
+    padding: 1rem;
+}
+
+.header .info h1{
+    font-family: "Poppins-Bold", sans-serif;
+    font-size: 1.8rem;
+}
+
+.header .info p{
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 0.7rem;
+    color: #6e6e6e;
+    margin-bottom: 1rem;
+}
+
+.how-it{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: #f3f4f6;
+}
+
+.how-it .steps{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 2rem;
+}
+
+.how-it .steps span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    padding: 1rem;
+    border: solid 0.15rem #2a72d7;
+    border-radius: 50%;
+    font-family: "Poppins-Bold", sans-serif;
+    color: #2a72d7;
+}
+
+.how-it .steps h2{
+    font-family: "Poppins-Bold", sans-serif;
+    font-size: 1.1rem;
+    color: #2a72d7;
+}
+
+.how-it .steps p{
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 0.6rem;;
+}
+
+.how-it .steps > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 0.5rem;
+    width: 30%;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: #2a72d7;
+    color: #ebebec;
+}
+
+.footer .brand{
+    font-size: 1.5rem;
+    font-family: "Poppins-Bold", sans-serif;
+}
+
+.footer .brand .home-icon{
+    margin-right: 0.5rem;
+}
+
+.footer .socials{
+    margin-top: 0.5rem;
+}
+
+.footer .socials a{
+    margin: 0 0.5rem;
+    color: #ebebec;
+}
+
+.footer .socials a:hover *{
+    transform: scale(1.2);
+}
+
+.footer p{
+    font-family: "Poppins-Italic", sans-serif;
+    font-size: 0.7rem;
+    margin-top: 0.5rem;
+}
+
+.footer p a{
+    color: #ebebec;
+    text-decoration: none;
+    font-family: "Poppins-Bold", sans-serif;
+}
+
+.footer p a:hover{
+    text-decoration: underline;
+}
