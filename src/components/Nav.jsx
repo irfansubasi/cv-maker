@@ -12,7 +12,7 @@ export default function Nav() {
                 <span>CV Maker</span>
             </div>
             
-            <Link className="btn" to="/">Create CV</Link>
+            <Link className="btn" to="/editcv">Create CV</Link>
         </nav>
     );
 }

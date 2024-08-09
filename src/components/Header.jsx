@@ -8,7 +8,7 @@ export default function Header() {
             <div className='info'>
                 <h1>Easily create a professional resume!</h1>
                 <p>Create a professional resume in just a few clicks. 100% free!</p>
-                <Link className="btn" to="/" style={{fontSize: '0.9rem'}}>Create CV</Link>
+                <Link className="btn" to="/editcv" style={{fontSize: '0.9rem'}}>Create CV</Link>
             </div>
         </header>
     );   
